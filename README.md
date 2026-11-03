@@ -8,15 +8,19 @@ Sitio estático (HTML + CSS + JS, sin dependencias) con la landing de presentaci
 index.html        → Landing principal
 privacidad.html    → Política de tratamiento de datos personales
 img/
-  mira-wordmark.png   → Logo "mira" (para el menú)
-  mira-completo.png   → Logo "mira · leads calificados" (para el pie de página)
+  mira-wordmark.png     → Logo "mira" (para el menú)
+  mira-completo.png     → Logo "mira · leads calificados" (para el pie de página)
+  catalogo-publico.png  → Captura: ficha de inmueble en el catálogo público
+  leads-panel.png       → Captura: panel de administración de leads (datos de un tercero pixelados)
+  panel-inventario.png  → Captura: panel de administración de inventario
+  ficha-compartir.png   → Captura: ficha para compartir con colegas (datos de contacto pixelados)
 ```
 
 ## Pendientes antes de publicar
 
-- [ ] **Fecha de la política**: en `privacidad.html`, busca `[FECHA DE PUBLICACIÓN]` y reemplázalo por la fecha real.
 - [ ] Revisa la frase de `privacidad.html` sobre dónde se almacenan los datos ("Google Drive u otros repositorios") — según la arquitectura del sistema, los leads en realidad se guardan en **Google Sheets**; ajústala si quieres que sea exacta.
-- [ ] El número de WhatsApp (573164854961) ya está enlazado en el botón "Escríbenos por WhatsApp" de `index.html`.
+- [x] El número de WhatsApp (573164854961) ya está enlazado en el botón "Escríbenos por WhatsApp" de `index.html`.
+- [x] Fecha de la política actualizada: 21 de octubre de 2026.
 
 ## Publicar en GitHub Pages (gratis)
 
